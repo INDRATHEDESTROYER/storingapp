@@ -1,0 +1,1 @@
+SELECT product FROM productentabel WHERE categorie = 'Zoet' AND price >= 1.5

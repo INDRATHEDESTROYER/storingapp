@@ -22,8 +22,15 @@
             </div>
             <div class="form-group">
                 <label for="type">Type</label>
-                <!-- hier komt een dropdown -->
+                <select name="type" id="type">
+                    <option value="ongeselecteerd">-selecteer een optie-</option>
+                    <option value="achtbaan">Achtbaan</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
             </div>
+ 
             <div class="form-group">
                 <label for="capaciteit">Capaciteit p/uur:</label>
                 <input type="number" min="0" name="capaciteit" id="capaciteit" class="form-input">
@@ -32,6 +39,16 @@
                 <label for="melder">Naam melder:</label>
                 <input type="text" name="melder" id="melder" class="form-input">
             </div>
+            <div class="form-group">
+                <label for="prioriteit">Prio</label>
+                <input type="checkbox" name="prioriteit" id="prioriteit">
+                <label for="prioriteit">Melding met prioriteit</label>
+            </div>
+            <div class="form-group">
+                <label for="overige_info">Overige info:</label>
+                <input type="textarea" name="overige_info" id="overige_info" class="form-input">
+            </div>
+
 
             <input type="submit" value="Verstuur melding">
 
